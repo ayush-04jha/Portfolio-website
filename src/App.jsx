@@ -13,13 +13,13 @@ function App() {
   
 
   return (
-    <div>
+    <div className=''>
     <BrowserRouter>
     <Navbar/>
     </BrowserRouter>
-     <Home />   
-      
-     <BrowserRouter>
+    <div className='flex flex-col container  mx-auto min-h-screen'>
+    <Home />  
+    <BrowserRouter>
      <About/>
      </BrowserRouter>
      <Skills/>
@@ -27,6 +27,10 @@ function App() {
      <MyProjects/>
      </BrowserRouter>
      <FormSection/>
+    </div>
+      
+      
+     
      <Footer/>
     
      

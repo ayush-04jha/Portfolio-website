@@ -2,10 +2,17 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="border h-[8rem] flex flex-row justify-between items-center mt-[10rem] border-gray-800">
-      <div className="text-4xl text-white font-bold ml-5">Programmer</div>
-      <p className="mr-5 text-slate-600">All rights reserved.</p>
-    </div>
+    <div className="border h-[8rem] flex flex-col sm:flex-row justify-center sm:justify-between items-center mt-[10rem] border-gray-800 px-5">
+  {/* Left Content */}
+  <div className="text-4xl text-white font-bold text-center sm:text-left">
+    Programmer
+  </div>
+  {/* Right Content */}
+  <p className="text-slate-600 text-center sm:text-right mt-2 sm:mt-0">
+    All rights reserved.
+  </p>
+</div>
+
   );
 }
 

@@ -12,22 +12,21 @@ function Home() {
           </span>
           <br />
           <div className="text-center sm:text-start">
-          <TypeAnimation
-            sequence={[
-              "Ayush",
-              1000,
+            <TypeAnimation
+              sequence={[
+                "Ayush",
+                1000,
 
-              "Web Developer",
-              1000,
-              "CP Enthusiast",
-              1000,
-            ]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-          />
+                "Web Developer",
+                1000,
+                "CP Enthusiast",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </div>
-          
         </h1>
 
         <p className="text-[#ADB7BE] mb-6 text-center text-xl">

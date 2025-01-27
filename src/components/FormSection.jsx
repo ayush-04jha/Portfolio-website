@@ -6,7 +6,7 @@ function FormSection() {
   <div className="flex flex-col sm:flex-row sm:pr-[2rem] sm:justify-between items-center relative mt-[5rem] gap-y-10 sm:gap-y-0">
     {/* Left Div */}
     <div className="sm:w-[50%] px-[1rem] sm:pr-[15rem] sm:mb-[9rem] flex flex-col gap-5 sm:ml-[2rem]">
-      <h1 className="self-center sm:self-start w-fit font-bold text-xl">
+      <h1 className="self-center text-white sm:self-start w-fit font-bold text-xl">
         Let's Connect
       </h1>
       <p className="text-[#ADB7BE]">
@@ -32,7 +32,7 @@ function FormSection() {
       <form className="flex flex-col items-center justify-center gap-5">
         {/* Email Field */}
         <div className="w-full">
-          <p>Your Email</p>
+          <p className="text-white">Your Email</p>
           <input
             type="email"
             placeholder="ayu.jha321@gmail.com"
@@ -41,7 +41,7 @@ function FormSection() {
         </div>
         {/* Subject Field */}
         <div className="w-full">
-          <p>Subject</p>
+          <p className="text-white">Subject</p>
           <input
             type="text"
             placeholder="Just say Hi!"
@@ -50,7 +50,7 @@ function FormSection() {
         </div>
         {/* Message Field */}
         <div className="w-full">
-          <p>Message</p>
+          <p className="text-white">Message</p>
           <textarea
             placeholder="Let's talk about..."
             className="w-[90%] sm:w-[40rem] bg-slate-800 rounded-md p-2 mt-2"
@@ -58,7 +58,7 @@ function FormSection() {
         </div>
       </form>
       {/* Submit Button */}
-      <button className="w-[90%] self-start  sm:w-[40rem] mt-8 rounded-lg h-10 bg-purple-500">
+      <button className="w-[90%] self-start text-white sm:w-[40rem] mt-8 rounded-lg h-10 bg-purple-500">
         Send Message
       </button>
     </div>

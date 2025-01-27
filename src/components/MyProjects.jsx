@@ -4,14 +4,14 @@ import { NavLink } from "react-router-dom";
 function MyProjects() {
   return (
     <div className="flex flex-col items-center justify-normal pt-5 mb-[8rem] sm:mb-[10rem]">
-  <h1 className="font-bold text-4xl  pl-[4.5rem] sm:pl-[0rem] mb-10">Projects & CP Achievements</h1>
+  <h1 className="font-bold text-white text-4xl  pl-[4.5rem] sm:pl-[0rem] mb-10">Projects & CP Achievements</h1>
   
   {/* Buttons */}
   <div className="flex flex-wrap justify-center gap-5 sm:gap-20 mb-10">
-    <button className="border-[0.2rem] rounded-full px-5 py-2 border-gray-800">
+    <button className="border-[0.2rem] text-white rounded-full px-5 py-2 border-gray-800">
       Projects
     </button>
-    <button className="border-[0.2rem] rounded-full px-5 py-2 border-gray-800">
+    <button className="border-[0.2rem] text-white rounded-full px-5 py-2 border-gray-800">
       Competitive Programming
     </button>
   </div>

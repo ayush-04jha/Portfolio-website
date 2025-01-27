@@ -10,6 +10,7 @@ function Home() {
         <span className="text-transparent bg-clip-text font-extrabold bg-gradient-to-r from-primary-400 to-secondary-600">
           Hello, I'm
         </span>
+        
         <br />
         <div className="text-center md:text-start">
           <TypeAnimation

@@ -17,7 +17,8 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     </BrowserRouter>
-     <Home/>    
+     <Home />   
+      
      <BrowserRouter>
      <About/>
      </BrowserRouter>

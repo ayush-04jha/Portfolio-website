@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function About() {
   return (
-    <div className="flex border flex-col md:flex-row mt-[-4rem] sm:justify-between">
+    <div className="flex  flex-col md:flex-row mt-[-4rem] sm:justify-between">
   {/* Image */}
   <div className="hidden sm:block">
     <img

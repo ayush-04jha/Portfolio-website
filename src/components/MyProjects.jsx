@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function MyProjects() {
   return (
     <div className="flex flex-col items-center justify-normal pt-5 mb-[8rem] sm:mb-[10rem]">
-  <h1 className="font-bold text-4xl border pl-[4.5rem] sm:pl-[0rem] mb-10">Projects & CP Achievements</h1>
+  <h1 className="font-bold text-4xl  pl-[4.5rem] sm:pl-[0rem] mb-10">Projects & CP Achievements</h1>
   
   {/* Buttons */}
   <div className="flex flex-wrap justify-center gap-5 sm:gap-20 mb-10">

@@ -28,7 +28,7 @@ function FormSection() {
     </div>
 
     {/* Form Div */}
-    <div className="sm:mr-8 border flex flex-col justify-center items-center">
+    <div className="sm:mr-8  flex flex-col justify-center items-center">
       <form className="flex flex-col items-center justify-center gap-5">
         {/* Email Field */}
         <div className="w-full">
@@ -58,7 +58,7 @@ function FormSection() {
         </div>
       </form>
       {/* Submit Button */}
-      <button className="w-[90%] self-start border sm:w-[40rem] mt-8 rounded-lg h-10 bg-purple-500">
+      <button className="w-[90%] self-start  sm:w-[40rem] mt-8 rounded-lg h-10 bg-purple-500">
         Send Message
       </button>
     </div>

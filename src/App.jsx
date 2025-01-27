@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     </BrowserRouter>
-    <div className='flex flex-col container  mx-auto min-h-screen'>
+    <div className='flex flex-col container overflow-x-hidden  mx-auto min-h-screen'>
     <Home />  
     <BrowserRouter>
      <About/>
